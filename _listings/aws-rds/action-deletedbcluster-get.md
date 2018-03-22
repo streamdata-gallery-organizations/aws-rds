@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBCluster&k=1:
+  /?Action=DeleteDBCluster:
     get:
       summary: Delete D B Cluster
       description: The DeleteDBCluster action deletes a previously provisioned DB
