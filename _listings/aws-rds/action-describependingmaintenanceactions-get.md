@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePendingMaintenanceActions&k=1:
+  /?Action=DescribePendingMaintenanceActions:
     get:
       summary: Describe Pending Maintenance Actions
       description: Returns a list of resources (for example, DB instances) that have
