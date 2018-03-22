@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PromoteReadReplicaDBCluster&k=1:
+  /?Action=PromoteReadReplicaDBCluster:
     get:
       summary: Promote Read Replica D B Cluster
       description: Promotes a Read Replica DB cluster to a standalone DB cluster
