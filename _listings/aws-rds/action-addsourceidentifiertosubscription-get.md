@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddSourceIdentifierToSubscription&k=1:
+  /?Action=AddSourceIdentifierToSubscription:
     get:
       summary: Add Source Identifier To Subscription
       description: Adds a source identifier to an existing RDS event notification
