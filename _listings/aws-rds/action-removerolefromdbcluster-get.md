@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveRoleFromDBCluster&k=1:
+  /?Action=RemoveRoleFromDBCluster:
     get:
       summary: Remove Role From D B Cluster
       description: Disassociates an Identity and Access Management (IAM) role from
