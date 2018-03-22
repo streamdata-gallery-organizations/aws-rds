@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBClusters&k=1:
+  /?Action=DescribeDBClusters:
     get:
       summary: Describe D B Clusters
       description: Returns information about provisioned Aurora DB clusters
