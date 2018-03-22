@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveSourceIdentifierFromSubscription&k=1:
+  /?Action=RemoveSourceIdentifierFromSubscription:
     get:
       summary: Remove Source Identifier From Subscription
       description: Removes a source identifier from an existing RDS event notification
