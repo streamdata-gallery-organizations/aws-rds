@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBCluster&k=1:
+  /?Action=ModifyDBCluster:
     get:
       summary: Modify D B Cluster
       description: Modify a setting for an Amazon Aurora DB cluster
