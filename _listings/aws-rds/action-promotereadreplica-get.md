@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PromoteReadReplica&k=1:
+  /?Action=PromoteReadReplica:
     get:
       summary: Promote Read Replica
       description: Promotes a Read Replica DB instance to a standalone DB instance
