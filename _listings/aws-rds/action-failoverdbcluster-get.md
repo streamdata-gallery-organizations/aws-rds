@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=FailoverDBCluster&k=1:
+  /?Action=FailoverDBCluster:
     get:
       summary: Failover D B Cluster
       description: Forces a failover for a DB cluster
