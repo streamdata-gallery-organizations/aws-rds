@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreDBClusterFromS3&k=1:
+  /?Action=RestoreDBClusterFromS3:
     get:
       summary: Restore D B Cluster From S3
       description: Creates an Amazon Aurora DB cluster from data stored in an Amazon
