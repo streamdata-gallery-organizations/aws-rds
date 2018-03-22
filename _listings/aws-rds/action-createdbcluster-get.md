@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBCluster&k=1:
+  /?Action=CreateDBCluster:
     get:
       summary: Create D B Cluster
       description: Creates a new Amazon Aurora DB cluster
