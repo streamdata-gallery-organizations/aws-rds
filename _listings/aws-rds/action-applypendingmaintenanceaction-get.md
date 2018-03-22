@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ApplyPendingMaintenanceAction&k=1:
+  /?Action=ApplyPendingMaintenanceAction:
     get:
       summary: Apply Pending Maintenance Action
       description: Applies a pending maintenance action to a resource (for example,
