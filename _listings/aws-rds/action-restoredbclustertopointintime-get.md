@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreDBClusterToPointInTime&k=1:
+  /?Action=RestoreDBClusterToPointInTime:
     get:
       summary: Restore D B Cluster To Point In Time
       description: Restores a DB cluster to an arbitrary point in time
