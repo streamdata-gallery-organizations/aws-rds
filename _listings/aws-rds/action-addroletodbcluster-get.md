@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddRoleToDBCluster&k=1:
+  /?Action=AddRoleToDBCluster:
     get:
       summary: Add Role To D B Cluster
       description: Associates an Identity and Access Management (IAM) role from an
