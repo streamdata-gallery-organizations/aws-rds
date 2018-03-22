@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBEngineVersions&k=1:
+  /?Action=DescribeDBEngineVersions:
     get:
       summary: Describe D B Engine Versions
       description: Returns a list of the available DB engines
