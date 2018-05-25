@@ -1658,23 +1658,4 @@
           "id": "3cc08a2d-6121-48d2-8f07-42c303391dc9",
           "name": "promotereadreplicadbcluster",
           "request": {
-            "url": "http://example.com/api/?Action=PromoteReadReplicaDBCluster?DBClusterIdentifier=DBClusterIdentifier",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Promotes a Read Replica DB cluster to a standalone DB cluster."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "aa5f5373-b46a-4b71-8e7a-5c96b5a3b810"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "url": "http://example.com/api/?Action=PromoteReadReplicaDBC
